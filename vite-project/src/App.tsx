@@ -1,6 +1,6 @@
 //import './App.css'
 
-import { NavBar } from './components/NavBar'
+import { ListCards, NavBar } from './components'
 import './css/bootstrap.min.css'
 
 function App() {
@@ -8,7 +8,12 @@ function App() {
   return (
     <>
       <NavBar></NavBar>
-      <h3>Hola</h3>
+
+      <div className='container'>
+
+
+      <ListCards/>
+      </div>
     </>
   )
 }
